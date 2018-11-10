@@ -6,10 +6,10 @@ root登录服务器后，
 首先修改root密码
 passwd
 
-#二、更新系统
+二、更新系统
 yum -y update
 
-#三、安装wget
+三、安装wget
 yum install wget
 
 四、一键安装SSR翻墙工具
