@@ -27,3 +27,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/azheng2010/onek
 `其中requirements.txt为常见的第三方python模块`
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/azheng2010/onekey_install_vps/master/py3install.sh && wget -N --no-check-certificate https://raw.githubusercontent.com/azheng2010/onekey_install_vps/master/requirements.txt && chmod +x py3install.sh && bash py3install.sh
+
+**六、安装mysql**
+
+
+（未完待续）
