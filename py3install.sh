@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 #一键安装python3.6.6脚本
 echo '安装python3.6.6并设置python3'
 echo '安装依赖库'
