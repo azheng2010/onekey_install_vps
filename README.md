@@ -23,5 +23,7 @@ yum install wget
 wget -N --no-check-certificate https://github.com/azheng2010/onekey_install_vps/blob/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 
 **五、一键安装python3**
-~~~其中requirements.txt为常见的第三方python模块~~~
+
+`其中requirements.txt为常见的第三方python模块`
+
 wget -N --no-check-certificate https://github.com/azheng2010/onekey_install_vps/blob/master/py3install.sh && wget -N --no-check-certificate https://github.com/azheng2010/onekey_install_vps/blob/master/requirements.txt && chmod +x py3install.sh && bash py3install.sh
