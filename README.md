@@ -6,11 +6,11 @@ VPS服务器一键安装脚本
 
 root登录服务器后。
 
-**首先修改root密码
+**首先修改root密码**
 
 passwd
 
-**二、更新系统
+**二、更新系统**
 
 yum -y update
 
