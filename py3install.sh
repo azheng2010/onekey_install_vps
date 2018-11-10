@@ -19,5 +19,5 @@ ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
 #更新pip
 pip3 install --upgrade pip
 #安装常用模块
-pip3 install -r requirements.txt
+pip3 install -r ~/requirements.txt
 echo '安装完毕！'
