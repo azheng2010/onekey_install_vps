@@ -1,0 +1,1 @@
+一键安装python3，并添加软链接python3，pip3，更新pip3版本
