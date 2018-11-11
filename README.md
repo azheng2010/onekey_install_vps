@@ -2,7 +2,7 @@
 
 VPS服务器一键安装脚本
 
-适用于centOS6.x及以上版本
+适用于centOS 7.x 版本
 
 root登录服务器后。
 
