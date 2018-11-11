@@ -24,7 +24,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/azheng2010/onek
 
 这里需要注意一下，更改centos6或者centos7防火墙规则，把ssr端口加进去！否则服务器重启后就没法用了。
 centos7默认使用的是firewall防火墙，这里我们改成centos6使用的iptables防火墙。
-wget -N --no-check-certificate https://raw.githubusercontent.com/azheng2010/onekey_install_vps/master/iptables && wget -N --no-check-certificate https://raw.githubusercontent.com/azheng2010/onekey_install_vps/master/firewall_config && chmod +x firewall_config.sh && bash firewall_config.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/azheng2010/onekey_install_vps/master/iptables && wget -N --no-check-certificate https://raw.githubusercontent.com/azheng2010/onekey_install_vps/master/firewall_config.sh && chmod +x firewall_config.sh && bash firewall_config.sh
 
 **五、一键安装python3**
 
