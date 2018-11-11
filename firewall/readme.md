@@ -1,0 +1,1 @@
+CentOS 7 默认安装firewall防火墙。这里更换成iptables防火墙，并配置开放端口
