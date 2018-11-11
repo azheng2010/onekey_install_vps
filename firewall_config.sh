@@ -34,3 +34,8 @@ systemctl restart iptables.service #重启防火墙使配置生效
 systemctl enable iptables.service #设置防火墙开机启动
 
 echo '更改防火墙规则成功！'
+
+#验证
+systemctl status iptables#查看运行状态
+cat /etc/sysconfig/iptables#查看规则文件
+echo '查看防火墙规则文件，看看3306端口，8972端口有没有体现，有的话，就成功了！！！'
