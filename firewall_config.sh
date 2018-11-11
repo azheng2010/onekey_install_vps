@@ -26,7 +26,8 @@ systemctl status iptables
 
 #此处采用替换配置文件的方法
 #rm /etc/sysconfig/iptables
-cp ~/iptables /etc/sysconfig/iptables -y
+#cp ~/iptables /etc/sysconfig/iptables -f
+mv ~/iptables /etc/sysconfig/iptables -f
 
 #6.重启配置，重启系统
 systemctl restart iptables.service #重启防火墙使配置生效
