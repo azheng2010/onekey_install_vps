@@ -1,5 +1,5 @@
 #！/usr/bin/bash
-#适用CentOS7修改防火墙
+#适用CentOS7修改防火墙，CentOS6本身使用iptables防火墙，只需添加规格即可
 #CentOS 7.0默认使用的是firewall作为防火墙，这里改为iptables防火墙。
 
 #1、关闭firewall：
