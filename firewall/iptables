@@ -10,9 +10,15 @@
 -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
 -A INPUT -p icmp -j ACCEPT
 -A INPUT -i lo -j ACCEPT
+#SSH端口
 -A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT
+#MySQL端口
 -A INPUT -m state --state NEW -m tcp -p tcp --dport 3306 -j ACCEPT
+#SSR端口
 -A INPUT -m state --state NEW -m tcp -p tcp --dport 8972 -j ACCEPT
+#xunsearch端口
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8383 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8384 -j ACCEPT
 #此处添加规则，上面的8972是ssr端口，3306是mysql端口。可根据实际情况更改。
 -A INPUT -j REJECT --reject-with icmp-host-prohibited
 -A FORWARD -j REJECT --reject-with icmp-host-prohibited
