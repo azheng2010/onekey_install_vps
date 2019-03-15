@@ -12,9 +12,10 @@ systemctl mask firewalld.service#注销firewall服务
 yum install iptables-services -y
 
 #3.启动设置防火墙
-systemctl enable iptables
-systemctl start iptables
-
+systemctl enable iptables#设置自启动
+systemctl start iptables#运行防火墙
+systemctl start ip6tables；#启动ip6tables（不需要可以跳过）
+systemctl enable ip6tables；#自启动ip6tables（不需要可以跳过）
 #4.查看防火墙状态
 systemctl status iptables
 
